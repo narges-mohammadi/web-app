@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+    </head>
+    <body>
+    
+    <ul style = "padding-top:5px;padding-bottom:10px;padding-right:50px;padding-left:1100px; font-size:10px">
+    <li style = "display:inline-block;">
+        <a href = "index.html" style="text-decoration:none;"><h1>Google Search</h1></a>
+    </li>
+</ul>
+    
+    <h2 style = "padding-top:5px;padding-bottom:10px;padding-right:900px;padding-left:10px;"> Advanced Search </h2>
+  
+    <p style = "padding-top:5px;padding-bottom:10px;padding-right:900px;padding-left:10px;"> Find pages with...</p>  
+        <form method = "get" action = "https://google.com/search" style = "padding-top:20px;padding-bottom:20px;padding-right:700px;padding-left:20px">
+            
+	    <label for="gsearch">all these words:</label>
+            <input type="text" name="as_q" id="gsearch">
+            <br></br>
+            <label for="exact">this exact word or phrase:</label>
+            <input type="text" name="as_epq" id="exact">
+            <br></br>
+            <label for="any">any of these words:</label>
+            <input type="text" name="as_oq" id= "any">
+            <br></br>
+            <label for="none">none of these words:</label>
+            <input type="text" name="as_eq" id="none">
+            <br></br>
+            <input type="submit" value="Advanced Search">
+            
+        </form>
+        
+        
+    </body>
+</html>
