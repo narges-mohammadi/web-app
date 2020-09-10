@@ -1,0 +1,35 @@
+
+body {
+  background-color: white;
+}
+
+h1 {
+  color: black;
+}
+
+h2 {
+  color: red;
+}
+
+p {
+  color: black;
+}
+
+form {
+  width: 240 px;
+  disply: inline-block;
+  text-align : right;
+}
+
+.inputBox label{
+ 
+ text-align : left;
+
+}
+
+
+.inputBox input{
+ 
+ margin-left : 32px;
+
+}

@@ -2,36 +2,50 @@
 <html lang="en">
     <head>
         <title>Search</title>
+        <link rel="stylesheet" href="AdvancedSearch.css">
     </head>
+    
+    
     <body>
     
     <ul style = "padding-top:5px;padding-bottom:10px;padding-right:50px;padding-left:1100px; font-size:10px">
     <li style = "display:inline-block;">
         <a href = "index.html" style="text-decoration:none;"><h1>Google Search</h1></a>
     </li>
-</ul>
+    </ul>
     
     <h2 style = "padding-top:5px;padding-bottom:10px;padding-right:900px;padding-left:10px;"> Advanced Search </h2>
   
     <p style = "padding-top:5px;padding-bottom:10px;padding-right:900px;padding-left:10px;"> Find pages with...</p>  
         <form method = "get" action = "https://google.com/search" style = "padding-top:20px;padding-bottom:20px;padding-right:200px;padding-left:20px">
+            <section class="inputBox">
             
+            <h2>LLL</h2>
+            
+            <p>
 	    <label for="gsearch">all these words:</label>
             <input type="text" name="as_q" id="gsearch" style = "padding-right:350px;padding-left:300px;">
-            <br></br>
+            </p>
+          
             
+            <p>
             <label for="exact">this exact word or phrase:</label>
             <input type="text" name="as_epq" id="exact"style = "padding-right:350px;padding-left:300px;">
-            <br></br>
+            </p>
             
+            
+            <p>
             <label for="any">any of these words:</label>
             <input type="text" name="as_oq" id= "any"style = "padding-right:350px;padding-left:300px;">
-            <br></br>
+            </p>
             
+            
+            <p>
             <label for="none">none of these words:</label>
             <input type="text" name="as_eq" id="none"style = "padding-right:350px;padding-left:300px;">
-            <br></br>
+            </p>
             
+            </section>
             <input type="submit" value="Advanced Search" style="background-color : #4285F4; border-color : #4285F4; color : white; " >
             
         </form>
