@@ -15,8 +15,14 @@ p {
   color: black;
 }
 
+
+search-button {
+  border-radius: 5px; 
+}
+
+
 form {
-  width: 240 px;
+  width: 230 px;
   disply: inline-block;
   text-align : right;
 }
@@ -24,12 +30,11 @@ form {
 .inputBox label{
  
  text-align : left;
+ float: left;
 
 }
 
 
 .inputBox input{
- 
  margin-left : 32px;
-
 }
